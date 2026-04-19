@@ -12,7 +12,7 @@ namespace BenchmarkSolidApp
     {
         public void ExecuteSync(List<int> data)
         {
-            Console.WriteLine("[Sync] Đang chạy bằng 1 nhân CPU...");
+            Console.WriteLine("[Sync] ...");
 
             foreach (var item in data)
             {

@@ -13,7 +13,7 @@ namespace BenchmarkSolidApp
     {
         public async Task ExecuteAsync(List<int> data)
         {
-            Console.WriteLine("[Async] Đang huy động toàn bộ nhân CPU (Tận dụng ThreadPool)...");
+            Console.WriteLine("[Async] ...");
 
             await Task.Run(() =>
             {
