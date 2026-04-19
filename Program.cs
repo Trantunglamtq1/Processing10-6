@@ -9,6 +9,7 @@ namespace BenchmarkSolidApp
     {
         static async Task Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             int recordCount = 1_000_000;
             Console.WriteLine($"Đang tạo {recordCount:N0} records...\n");
             var data = Enumerable.Range(1, recordCount).ToList();
