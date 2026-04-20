@@ -17,10 +17,10 @@ namespace BenchmarkSolidApp
 
             await Task.Run(() =>
             {
-                Parallel.ForEach(data, item =>
+               foreach (var item in data) 
                 {
                     DoHeavyWork(item);
-                });
+                }
             });
         }
 
